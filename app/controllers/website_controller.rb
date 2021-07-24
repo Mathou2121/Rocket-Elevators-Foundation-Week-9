@@ -11,6 +11,6 @@ class WebsiteController < ApplicationController
   end
   def intervention
   end
-  def chuck_norris
+  def anime
   end
 end

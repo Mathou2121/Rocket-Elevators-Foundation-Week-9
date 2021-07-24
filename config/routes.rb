@@ -22,7 +22,7 @@ Rails.application.routes.draw do
 
   get '/google', to: 'google#maps'
 
-  get '/chucknorris', to: 'website#chucknorris'
+  get '/anime', to: 'website#anime'
 
   post '/watson/greetings', to: 'watson#greetings'
 
