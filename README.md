@@ -43,4 +43,6 @@ Implemented some TDD for different part of the website. This is not the way we s
 
 This is the document for this week that was demanded: https://docs.google.com/document/d/1-2nx40PON7E9woa7ZNn2dd5i-SeHjaJHtm5x4Gabfks/edit?usp=sharing
 
+To run the test, this is the command: bundle exec rspec --format documentation
+
 .....
