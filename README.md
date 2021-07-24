@@ -41,4 +41,6 @@ Week 9:
 
 Implemented some TDD for different part of the website. This is not the way we should be doing it though. We would need to implement the test first before writing the code but it was good practice.
 
+This is the document for this week that was demanded: https://docs.google.com/document/d/1-2nx40PON7E9woa7ZNn2dd5i-SeHjaJHtm5x4Gabfks/edit?usp=sharing
+
 .....
