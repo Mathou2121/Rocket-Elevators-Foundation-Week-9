@@ -100,3 +100,5 @@ group :development, :test do
 end
 
 gem 'rest-client', '~> 2.1.0'
+
+gem 'newrelic_rpm'
