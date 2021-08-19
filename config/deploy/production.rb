@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server "3.96.148.166", user: "bitnami", roles: %w{app web}
+server "3.96.148.166", user: "bitnami", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 app = ENV['APP']
@@ -27,6 +27,7 @@ set :linked_files, %w{config/database.yml config/application.yml}
 
 role :app, %w{bitnami@3.96.148.166}
 role :web, %w{bitnami@3.96.148.166}
+role :db, %w{bitnami@3.96.148.166}
 
 
 
